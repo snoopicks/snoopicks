@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guide ultime pour Bee Swarm Simulator : Stratégies, Boosts, Abeilles, et plus!">
+    <title>Bee Swarm Simulator - Guide Ultime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Bee Swarm Simulator - Guide Ultime</h1>
+            <p>Devenez un pro du miel dans Bee Swarm Simulator</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#intro">Accueil</a></li>
+                <li><a href="#strategies">Stratégies</a></li>
+                <li><a href="#abeilles">Abeilles</a></li>
+                <li><a href="#zones">Zones</a></li>
+                <li><a href="#boosts">Boosts & Équipements</a></li>
+                <li><a href="#calculatrice">Calculatrice de Miel</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#forum">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Introduction -->
+        <section id="intro">
+            <h2>Bienvenue sur le Guide Ultime de Bee Swarm Simulator</h2>
+            <p>Optimisez vos stratégies pour devenir un maître dans l'art de récolter du miel ! Découvrez des stratégies avancées, les meilleurs boosts, et bien plus encore.</p>
+
+            <h3>Dernières Nouvelles</h3>
+            <div class="news">
+                <ul>
+                    <li><a href="#">Événement spécial: Récolte double ce week-end !</a></li>
+                    <li><a href="#">Mise à jour 2025 : De nouvelles zones de récolte ajoutées !</a></li>
+                    <li><a href="#">Nouvelle abeille légendaire : La Queen Bee est là !</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Stratégies de Farming -->
+        <section id="strategies">
+            <h2>Stratégies de Farming</h2>
+            <p>Que vous soyez débutant ou expert, trouvez la stratégie qui vous convient pour récolter efficacement du pollen et produire plus de miel.</p>
+            <ul>
+                <li><strong>Débutant :</strong> Commencez par les zones de faible difficulté comme le Champ de Tournesols. Utilisez vos abeilles de base pour récolter rapidement.</li>
+                <li><strong>Intermédiaire :</strong> Optimisez vos abeilles et boostez votre récolte avec des équipements comme les Râteaux de Pollen.</li>
+                <li><strong>Avancé :</strong> Utilisez les boosts de miel et maximisez vos abeilles légendaires pour récolter dans des zones de haute difficulté.</li>
+            </ul>
+        </section>
+
+        <!-- Calculatrice de Miel -->
+        <section id="calculatrice">
+            <h2>Calculatrice de Miel</h2>
+            <form id="calculForm">
+                <label for="abeilles">Nombre d'Abeilles :</label>
+                <input type="number" id="abeilles" value="10" min="1" max="50">
+
+                <label for="boost">Boost (%) :</label>
+                <input type="number" id="boost" value="20" min="0" max="100">
+
+                <label for="zone">Choisissez votre zone :</label>
+                <select id="zone">
+                    <option value="1.2">Montagne (Rendement : +20%)</option>
+                    <option value="1">Champ de Fraises (Rendement : +10%)</option>
+                    <option value="0.8">Champ de Tournesols (Rendement : +5%)</option>
+                </select>
+
+                <button type="submit">Calculer le Miel</button>
+            </form>
+
+            <p id="resultat"></p>
+        </section>
+        
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+<section id="abeilles">
+  <h2>Liste des Abeilles</h2>
+  <p>Voici une liste détaillée de toutes les abeilles disponibles dans Bee Swarm Simulator. Chaque abeille a ses propres capacités et méthodes d'obtention. Utilisez cette liste pour optimiser vos stratégies de farming !</p>
+  
+  <table>
+      <thead>
+          <tr>
+              <th>Abeille</th>
+              <th>Type</th>
+              <th>Capacité Spéciale</th>
+              <th>Obtention</th>
+              <th>Avantages</th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- Abeille Commune -->
+          <tr>
+              <td>Abeille Commune</td>
+              <td>Commune</td>
+              <td>Aucune</td>
+              <td>Débloquée au départ</td>
+              <td>Capacité de base pour la récolte, utilisée dans toutes les situations</td>
+          </tr>
+
+          <!-- Abeille Rageuse -->
+          <tr>
+              <td>Abeille Rageuse</td>
+              <td>Rare</td>
+              <td>Augmente la vitesse de récolte pendant un court moment</td>
+              <td>Obtient après un certain nombre de récoltes</td>
+              <td>Réduit le temps de récolte dans les zones de récolte</td>
+          </tr>
+
+          <!-- Abeille Enneigée -->
+          <tr>
+              <td>Abeille Enneigée</td>
+              <td>Rare</td>
+              <td>Génère des flocons de neige qui ralentissent les ennemis et boostent la récolte</td>
+              <td>Obtenue lors des événements spéciaux d'hiver</td>
+              <td>Idéale pour farmer en hiver ou dans les zones gelées</td>
+          </tr>
+
+          <!-- Abeille Légendaire -->
+          <tr>
+              <td>Abeille Légendaire</td>
+              <td>Légendaire</td>
+              <td>Augmente la production de miel de manière significative pendant un temps limité</td>
+              <td>Obtient après avoir terminé une quête spéciale</td>
+              <td>Boost considérable pour les récoltes, mais nécessite des efforts pour l'obtenir</td>
+          </tr>
+
+          <!-- Abeille Pollen -->
+          <tr>
+              <td>Abeille Pollen</td>
+              <td>Épique</td>
+              <td>Augmente le rendement de pollen de 50%</td>
+              <td>Disponible via la boutique ou via des événements spéciaux</td>
+              <td>Améliore votre capacité à récolter plus de pollen dans les zones de culture</td>
+          </tr>
+
+          <!-- Abeille Mythique -->
+          <tr>
+              <td>Abeille Mythique</td>
+              <td>Mythique</td>
+              <td>Possède un effet unique qui double la production de miel pendant une courte période</td>
+              <td>Obtient par chance ou via une récompense très rare</td>
+              <td>Idéale pour les joueurs expérimentés cherchant à maximiser leur récolte de miel</td>
+          </tr>
+
+          <!-- Abeille Protéger -->
+          <tr>
+              <td>Abeille Protéger</td>
+              <td>Rare</td>
+              <td>Protège les autres abeilles contre les attaques d'ennemis et augmente leur survie</td>
+              <td>Récompense d'un événement de protection d'abeilles</td>
+              <td>Utilisée pour les zones de récolte avec de nombreux ennemis ou lors des batailles</td>
+          </tr>
+
+          <!-- Abeille Reine -->
+          <tr>
+              <td>Abeille Reine</td>
+              <td>Légendaire</td>
+              <td>Augmente considérablement la production de miel pendant 10 minutes</td>
+              <td>Obtient après avoir accompli une quête très difficile</td>
+              <td>Un boost puissant, mais difficile à obtenir</td>
+          </tr>
+
+          <!-- Abeille Raison -->
+          <tr>
+              <td>Abeille Raison</td>
+              <td>Commune</td>
+              <td>Améliore légèrement la production de pollen dans toutes les zones</td>
+              <td>Obtenue dès le début</td>
+              <td>Simple mais utile pour les premières étapes du jeu</td>
+          </tr>
+
+          <!-- Abeille Cuirassée -->
+          <tr>
+              <td>Abeille Cuirassée</td>
+              <td>Épique</td>
+              <td>Augmente la capacité de défense contre les ennemis et les boss</td>
+              <td>Obtient après avoir vaincu un boss spécial</td>
+              <td>Idéale pour les joueurs cherchant à récolter dans des zones pleines d'ennemis</td>
+          </tr>
+
+          <!-- Abeille Chasseuse -->
+          <tr>
+              <td>Abeille Chasseuse</td>
+              <td>Rare</td>
+              <td>Augmente la vitesse de récolte de pollen et réduit les temps de recharge des capacités</td>
+              <td>Obtient après avoir rempli une mission d'événement spécial</td>
+              <td>Très utile pour récolter rapidement dans des zones très productives</td>
+          </tr>
+
+          <!-- Abeille Recrutement -->
+          <tr>
+              <td>Abeille Recrutement</td>
+              <td>Rare</td>
+              <td>Permet de recruter des abeilles supplémentaires pendant un temps limité</td>
+              <td>Obtient par des événements de recrutement spéciaux</td>
+              <td>Idéale pour maximiser rapidement la production de miel sur le terrain</td>
+          </tr>
+          
+          <!-- Ajouter d'autres abeilles ici -->
+      </tbody>
+  </table>
+</section>
+</td>
+          </tr>
+      </tbody>
+  </table>
+</section>
+<section id="zones">
+  <h2>Zones de Récolte</h2>
+  <p>Choisissez une zone pour obtenir des informations détaillées sur le rendement et la difficulté de récolte.</p>
+
+  <div class="map-container">
+      <img src="map_image.jpg" alt="Carte des zones de récolte" usemap="#zonesMap">
+      <map name="zonesMap">
+          <area shape="rect" coords="100,100,150,150" alt="Montagne" href="#montagne">
+          <area shape="rect" coords="200,200,250,250" alt="Champ de Fraises" href="#fraises">
+      </map>
+  </div>
+
+  <div id="montagne">
+      <h3>Montagne</h3>
+      <p>Rendement élevé mais difficile. Utilisez des boosts pour maximiser vos récoltes.</p>
+  </div>
+
+  <div id="fraises">
+      <h3>Champ de Fraises</h3>
+      <p>Zone idéale pour débutants avec un rendement moyen.</p>
+  </div>
+</section>
+<section id="boosts">
+  <h2>Boosts et Équipements</h2>
+  <table>
+      <thead>
+          <tr>
+              <th>Boost</th>
+              <th>Effet</th>
+              <th>Durée</th>
+              <th>Obtention</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Boost de Miel</td>
+              <td>Double la récolte de miel pendant 10 minutes</td>
+              <td>10 minutes</td>
+              <td>Disponible via la boutique ou en récompense d'événements</td>
+          </tr>
+          <tr>
+              <td>Râteau de Pollen</td>
+              <td>Augmente le rendement de pollen</td>
+              <td>Permanent</td>
+              <td>Obtenu après certaines missions</td>
+          </tr>
+      </tbody>
+  </table>
+</section>
+<!-- Forum -->
+<section id="forum">
+  <h2>Forum Communautaire</h2>
+  <p>Rejoignez notre forum pour discuter de vos stratégies, partager vos astuces et poser des questions !</p>
+  <a href="https://forum.robloxlive.com" target="_blank">Accéder au Forum</a>
+</section>
+<!-- Blog -->
+<section id="blog">
+  <h2>Blog</h2>
+  <p>Suivez nos derniers articles et astuces pour devenir un pro de Bee Swarm Simulator :</p>
+  <ul>
+      <li><a href="#">Les meilleures stratégies pour obtenir des abeilles légendaires</a></li>
+      <li><a href="#">Optimiser votre récolte avec les boosts de miel</a></li>
+      <li><a href="#">Comment gérer efficacement vos abeilles et équipements</a></li>
+  </ul>
+</section>
